@@ -1,0 +1,22 @@
+{
+  "name": "ws-claude-skills",
+  "owner": {
+    "name": "ShuoWANG269"
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ws-claude-skills",
+      "description": "Personal project workflow skills: project-init and project-ship",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/project-init",
+        "./skills/project-ship"
+      ]
+    }
+  ]
+}
